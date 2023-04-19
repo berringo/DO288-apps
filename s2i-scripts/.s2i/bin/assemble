@@ -18,6 +18,7 @@ DATE=`date "+%b %d, %Y @ %H:%M %p"`
 echo "---> Creating info page"
 echo "Page built on $DATE" >> ./info.html
 echo "Proudly served by Apache HTTP Server version $HTTPD_VERSION" >> ./info.html
+echo "curl custom-s2i-berry-project.itzroks-6620021dgd-q13vzt-6ccd7f378ae819553d37d5f2ee142bd6-0000.eu-gb.containers.appdomain.cloud/info.html" > callpage.sh
 
 ######## CUSTOMIZATION ENDS HERE ############
 
